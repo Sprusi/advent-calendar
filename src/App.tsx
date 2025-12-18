@@ -8,7 +8,7 @@ function App() {
   return (
     <ConfigProvider locale={ru_RU}>
       <ErrorBoundary>
-        <BrowserRouter>
+        <BrowserRouter basename="/advent-calendar/">
           <Navigation />
         </BrowserRouter>
       </ErrorBoundary>
