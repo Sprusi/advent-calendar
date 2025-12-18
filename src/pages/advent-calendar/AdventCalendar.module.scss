@@ -1,0 +1,35 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  overflow: scroll;
+
+  background-image: url("../../assets/background/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.presentCard {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: #fefefe;
+
+  &Body {
+    padding: 0px;
+  }
+
+  &Img {
+    width: auto;
+    height: 100%;
+  }
+
+  &Closed {
+    background: #c62828;
+    border: none;
+    &Title {
+      color: white !important;
+    }
+  }
+}
