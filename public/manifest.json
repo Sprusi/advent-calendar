@@ -1,0 +1,21 @@
+{
+  "name": "Advent-Calendar",
+  "short_name": "Advent-Calendar",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/advent-logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/advent-logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
